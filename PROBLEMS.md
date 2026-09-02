@@ -27,3 +27,20 @@ Selection for the reference build: #1 — the only one with a large REAL sensor
 dataset already on disk, a cheap unambiguous test, and a genuine bottleneck
 (flight time). #2 follows because its demand is validated (research/08) and
 its test instrument is a phone.
+
+## Update after dataset verification (DATASETS.md, 2026-09-03)
+- NEW #1 candidate for the next build: **energy-absorbing printed shell** —
+  the Boston University self-driving-lab dataset holds 12,705 real FDM
+  compression experiments (F–d curves, 7 filaments incl. three TPUs, MIT
+  licence, on GitHub). FDM-native, parametric, large: the best learnable
+  dataset in the whole survey. Home test = bathroom scale + ruler.
+- Propeller (#1 above) confirmed as the right first build; UIUC Vol 2 even
+  contains four wind-tunnel-tested 3D-printed props. A 5–6 in variant is the
+  cheaper physical test than the 10 in reference.
+- Acoustic absorbers gained a real dataset with STLs (Zenodo 21866746) →
+  promoted to a strong #3.
+- FPV isolator (#2 above) demoted on DATA: no printed-isolator
+  transmissibility corpus exists; would rely on FEA + three small FRF sets.
+- Impact lattice: Deep-DRAM/spinodoid experimental data is not open; the BU
+  shells dataset covers the same physics better.
+- Wing/airfoil: data rich (UIUC LSAT) but the home test cannot resolve drag.
