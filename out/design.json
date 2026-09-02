@@ -1,0 +1,232 @@
+{
+  "operating_point": {
+    "diam_in": 10.0,
+    "rpm": 5000.0,
+    "thrust_min_N": 3.0
+  },
+  "r_R": [
+    0.2,
+    0.307,
+    0.414,
+    0.521,
+    0.629,
+    0.736,
+    0.843,
+    0.95
+  ],
+  "c_R": [
+    0.1914,
+    0.1976,
+    0.1997,
+    0.2006,
+    0.1979,
+    0.1836,
+    0.149,
+    0.1094
+  ],
+  "beta_deg": [
+    24.01,
+    21.27,
+    18.35,
+    15.78,
+    12.84,
+    10.21,
+    8.13,
+    5.9
+  ],
+  "predicted": {
+    "CT_mean": 0.0952,
+    "CP_mean": 0.0353,
+    "CT_lower": 0.0916,
+    "CP_upper": 0.0384,
+    "thrust_N_mean": 3.369,
+    "power_W_mean": 26.49,
+    "g_per_W_mean": 12.97,
+    "g_per_W_lower_bound": 11.5,
+    "ensemble_std_logCT": 0.038,
+    "ensemble_std_logCP": 0.082,
+    "hull_distance": 2.274
+  },
+  "surrogate_cv": {
+    "r2_logCT": 0.741,
+    "r2_logCP": 0.809,
+    "relative_error_CT": 0.095,
+    "relative_error_CP": 0.139
+  },
+  "n_training_rows": 1937,
+  "n_training_props": 110,
+  "search_objective_of_design": 9.17,
+  "best_known_geometries_under_same_objective": [
+    {
+      "prop": "gwsdd_11x7",
+      "objective": 8.63,
+      "g_per_W_lower_bound": 11.95,
+      "g_per_W_mean": 12.42,
+      "thrust_N_lower": 3.63
+    },
+    {
+      "prop": "grsn_11x6",
+      "objective": 8.45,
+      "g_per_W_lower_bound": 11.54,
+      "g_per_W_mean": 12.04,
+      "thrust_N_lower": 3.568
+    },
+    {
+      "prop": "gwsdd_10x6",
+      "objective": 8.35,
+      "g_per_W_lower_bound": 12.0,
+      "g_per_W_mean": 12.52,
+      "thrust_N_lower": 3.328
+    },
+    {
+      "prop": "ma_11x6",
+      "objective": 8.01,
+      "g_per_W_lower_bound": 11.55,
+      "g_per_W_mean": 12.17,
+      "thrust_N_lower": 3.235
+    },
+    {
+      "prop": "ma_11x7",
+      "objective": 7.87,
+      "g_per_W_lower_bound": 11.8,
+      "g_per_W_mean": 12.15,
+      "thrust_N_lower": 3.44
+    }
+  ],
+  "beats_best_known_geometry": true,
+  "best_measured_baselines_same_regime": [
+    {
+      "prop": "gwsdd_9x5",
+      "diam_in": 9.0,
+      "rpm": 4956.667,
+      "measured_CT": 0.106268,
+      "measured_CP": 0.039585,
+      "thrust_N": 2.426,
+      "power_W": 17.07,
+      "g_per_W": 14.49,
+      "surrogate_g_per_W_at_target": 12.44
+    },
+    {
+      "prop": "da4002_9x2.85",
+      "diam_in": 9.0,
+      "rpm": 4960.0,
+      "measured_CT": 0.082042,
+      "measured_CP": 0.032332,
+      "thrust_N": 1.876,
+      "power_W": 13.97,
+      "g_per_W": 13.69,
+      "surrogate_g_per_W_at_target": 11.88
+    },
+    {
+      "prop": "ma_9x4",
+      "diam_in": 9.0,
+      "rpm": 4898.0,
+      "measured_CT": 0.0752,
+      "measured_CP": 0.0304,
+      "thrust_N": 1.676,
+      "power_W": 12.65,
+      "g_per_W": 13.51,
+      "surrogate_g_per_W_at_target": 11.35
+    },
+    {
+      "prop": "apce_9x4.5",
+      "diam_in": 9.0,
+      "rpm": 5157.0,
+      "measured_CT": 0.0985,
+      "measured_CP": 0.0386,
+      "thrust_N": 2.434,
+      "power_W": 18.74,
+      "g_per_W": 13.24,
+      "surrogate_g_per_W_at_target": 11.22
+    },
+    {
+      "prop": "apcsf_9x4.7",
+      "diam_in": 9.0,
+      "rpm": 4942.0,
+      "measured_CT": 0.1175,
+      "measured_CP": 0.0481,
+      "thrust_N": 2.667,
+      "power_W": 20.55,
+      "g_per_W": 13.23,
+      "surrogate_g_per_W_at_target": 11.15
+    },
+    {
+      "prop": "grcsp_9x5",
+      "diam_in": 9.0,
+      "rpm": 5059.0,
+      "measured_CT": 0.0888,
+      "measured_CP": 0.0355,
+      "thrust_N": 2.112,
+      "power_W": 16.27,
+      "g_per_W": 13.23,
+      "surrogate_g_per_W_at_target": 11.56
+    },
+    {
+      "prop": "apcff_9x4",
+      "diam_in": 9.0,
+      "rpm": 4940.0,
+      "measured_CT": 0.093193,
+      "measured_CP": 0.038176,
+      "thrust_N": 2.113,
+      "power_W": 16.29,
+      "g_per_W": 13.22,
+      "surrogate_g_per_W_at_target": 10.27
+    },
+    {
+      "prop": "grcp_9x4",
+      "diam_in": 9.0,
+      "rpm": 4919.0,
+      "measured_CT": 0.066,
+      "measured_CP": 0.0275,
+      "thrust_N": 1.484,
+      "power_W": 11.59,
+      "g_per_W": 13.05,
+      "surrogate_g_per_W_at_target": 11.22
+    },
+    {
+      "prop": "gwssf_9x4.7",
+      "diam_in": 9.0,
+      "rpm": 4900.0,
+      "measured_CT": 0.1197,
+      "measured_CP": 0.0505,
+      "thrust_N": 2.671,
+      "power_W": 21.04,
+      "g_per_W": 12.94,
+      "surrogate_g_per_W_at_target": 10.71
+    },
+    {
+      "prop": "gwsdd_10x6",
+      "diam_in": 10.0,
+      "rpm": 5039.0,
+      "measured_CT": 0.0948,
+      "measured_CP": 0.0359,
+      "thrust_N": 3.409,
+      "power_W": 27.54,
+      "g_per_W": 12.62,
+      "surrogate_g_per_W_at_target": 12.0
+    }
+  ],
+  "search": {
+    "population": 96,
+    "generations": 200,
+    "objective": "lower-confidence-bound g/W with thrust floor, smoothness, hull penalty",
+    "best_objective_history": [
+      8.448280464516687,
+      8.448280464516687,
+      8.448280464516687,
+      8.448280464516687,
+      8.448280464516687,
+      8.448280464516687,
+      8.448280464516687,
+      8.448280464516687,
+      9.076863704014112,
+      9.16705032215501
+    ]
+  },
+  "runtime_s": 22.5,
+  "caveats": [
+    "Design is optimal under an ensemble learned from ~2k static measurements of ~100 props; the lower-confidence-bound objective and hull penalty limit but do not eliminate surrogate exploitation.",
+    "Airfoil section shape is NOT a design variable (fixed in cad_prop.py); only chord and twist are learned/searched.",
+    "Must be validated by a physical thrust/power test (motor + ESC + scale + wattmeter) at 5000 RPM."
+  ]
+}
